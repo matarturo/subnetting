@@ -16,8 +16,8 @@ def Int2Bin(integer):
     binary = '.'.join([bin(int(x)+256)[3:] for x in integer.split('.')])
     return binary
 
-IP = input('Ingresar dirección IP: ')
-Subnet = input('Ingresar mascara de red: ')
+IP = input('Ingresar dirección IP: ')   # Ingresar la dirección IP objetivo o del gateway
+Subnet = input('Ingresar mascara de red: ')  # Ejemplo: 255.255.255.128
 IP_binary = Int2Bin(IP)
 Subnet_binary = Int2Bin(Subnet)
 
