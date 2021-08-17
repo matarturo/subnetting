@@ -154,6 +154,7 @@ def maxiIP(brdcstIP):
     return ".".join(str(maxIPs[x]) for x in range(4))
 
 maxIP = maxiIP(broadcastIP)
+
 # Max IP: Reflejará el máximo rango de direciones IP disponibles para configurar hosts,
 # según la mascara de red ingresada en el 'input = subnet'
 
