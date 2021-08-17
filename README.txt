@@ -1,35 +1,34 @@
-Autor: Arturo Mata <arturo.mata@gmail.com>
-Script: ping.py
-Version: 1.0.0
-Repositorio: https://github.com/matarturo/
-Released under the GNU General Public License WITHOUT ANY WARRANTY.
-See LICENSE.TXT for details.
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# Script: calc_subnet.py
+# Creado por: Arturo Mata < arturo.mata@gmail.com >
+# Versión: 1.0.0
+# DESCARGO DE RESPONSABILIDAD
+# Este programa está diseñado con fines educativos para la configuracion de redes de datos,
+# y el autor no asumirá ninguna responsabilidad si se le da cualquier otro uso.
 
-# Este script escrito en Python, analiza segmentos red para validar los hosts activos
-
-Es importante el mantenimiento periódico de estos equipos ya que los archivos logs del entorno GNU/Linux DebianOS 
-crecen rápidamente y se pueden llenar los discos duros generando problemas de almacenamiento de información.
+# Script escrito en Python para calcular Network IP & Subnetting & CIDR
 
 # Requisitos 
 
-Nmap => apt install nmap
-Python => apt install python3
-Pip Python => pip install python-nmap
+Python => sudo apt install python3
+Pip Python => sudo apt-get install python3-pip
 
 # Descarga e instalación del script
+
 Para correr este script se requiere ingresar al equipo con credenciales de usuario < root >
 
 $ cd /var/log
-$ sudo git clone https://github.com/matarturo/scan_subnet.git
-$ cd scan_subnet
-$ sudo cp ping.py /var/log
+$ sudo git clone https://github.com/matarturo/subnetting.git
+$ cd subnetting
+$ sudo cp calc_subnet.py /var/log
 $ cd /var/log
 
 #Para editar el script
-$ sudo nano ping.py  
+$ sudo nano calc_subnet.py  
 
 # Ejecución del script
-$ sudo python3 ping.py 
+$ sudo python3 calc_subnet.py
 
 #Detener el proceso de busqueda.
 Pulsar simultaneamente las teclas CRTL+C
