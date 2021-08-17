@@ -4,7 +4,7 @@
 # Creado por: Arturo Mata < arturo.mata@gmail.com >
 # Versión: 1.0.0
 # DESCARGO DE RESPONSABILIDAD
-# Este programa está diseñado con fines educativos para la configuracion de redes de datos,,
+# Este programa está diseñado con fines educativos para la configuracion de redes de datos,
 # y el autor no asumirá ninguna responsabilidad si se le da cualquier otro uso.
 
 # Script para calcular Network IP & Subnetting & CIDR
